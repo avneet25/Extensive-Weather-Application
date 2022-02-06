@@ -1,0 +1,34 @@
+PODS:
+  - Alamofire (5.4.3)
+  - MSCircularSlider (1.3.2)
+  - ScrollableGraphView (4.0.6)
+  - SDWebImage (5.11.1):
+    - SDWebImage/Core (= 5.11.1)
+  - SDWebImage/Core (5.11.1)
+  - StepSlider (1.8.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - MSCircularSlider
+  - ScrollableGraphView
+  - SDWebImage
+  - StepSlider
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - MSCircularSlider
+    - ScrollableGraphView
+    - SDWebImage
+    - StepSlider
+
+SPEC CHECKSUMS:
+  Alamofire: e447a2774a40c996748296fa2c55112fdbbc42f9
+  MSCircularSlider: 07fe922e6a7e05fb67e876d449e365327fdad3d1
+  ScrollableGraphView: 4af35d4ea9ecdec665d34a74da51da161ddff8ac
+  SDWebImage: a7f831e1a65eb5e285e3fb046a23fcfbf08e696d
+  StepSlider: 890db727e779fa99cb32afffc5887c1109e151f4
+
+PODFILE CHECKSUM: 57e8cf706e535f613f7b1ab1b3a68d32f4c5ff83
+
+COCOAPODS: 1.10.1
