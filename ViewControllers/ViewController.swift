@@ -106,7 +106,7 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate, CLLocationM
     func getLocationInfo(lati: Double, longi: Double)
     {
         
-        let apiUrl = "https://api.accuweather.com/locations/v1/cities/geoposition/search.json?q=\(lati),\(longi)&apikey=srRLeAmTroxPinDG8Aus3Ikl6tLGJd94"
+        let apiUrl = "XYZ"
         AF.request(apiUrl).responseJSON { [self] results in
             if let value = results.value as? [String:Any] {
                 //print(value)
@@ -124,7 +124,7 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate, CLLocationM
     }
     func getLatiLongiByKey(Id: String) {
         
-        let apiUrl = "https://api.accuweather.com/locations/v1/\(Id).json?apikey=srRLeAmTroxPinDG8Aus3Ikl6tLGJd94&language=en-us&details=true"
+        let apiUrl = "XYZ"
         
         AF.request(apiUrl).responseJSON { result in
             if let value = result.value as? [String:Any]{
@@ -138,7 +138,7 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate, CLLocationM
     
     func getLocationId(lati: Double, longi: Double) {
         
-        let apiUrl =  "https://pw.foreca.com/fw/v4/\(longi),\(lati).json?lang=en&locale=en-US&v=4.9.8.1153"
+        let apiUrl =  "XYZ"
         
         AF.request(apiUrl).responseJSON { [self] results in
             if let value = results.value as? [String:Any] {
@@ -151,7 +151,7 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate, CLLocationM
     }
     func getWeatherInfoAgain(Id: String)
     {
-        let apiUrl = "https://api.accuweather.com/currentconditions/v1/\(Id).json?apikey=srRLeAmTroxPinDG8Aus3Ikl6tLGJd94&language=en-us&details=true&getphotos=false"
+        let apiUrl = "XYZ"
         AF.request(apiUrl).responseJSON { [self] results in
             if let value = results.value
                 as? [[String:Any]] {
@@ -162,7 +162,7 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate, CLLocationM
     }
     func getWeatherInfo(Id: String)
     {
-        let apiUrl = "https://api.accuweather.com/currentconditions/v1/\(Id).json?apikey=srRLeAmTroxPinDG8Aus3Ikl6tLGJd94&language=en-us&details=true&getphotos=false"
+        let apiUrl = "XYZ"
         AF.request(apiUrl).responseJSON { [self] results in
             if let value = results.value
                 as? [[String:Any]] {
@@ -272,7 +272,7 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate, CLLocationM
     }
     
     func getHourlyWeatherInfo(Id: String) {
-        let apiUrl = "https://api.accuweather.com/forecasts/v1/hourly/24hour/\(Id).json?apikey=srRLeAmTroxPinDG8Aus3Ikl6tLGJd94&language=en-us&details=true&metric=true"
+        let apiUrl = "XYZ"
         
         AF.request(apiUrl).responseJSON { [self] result in
             if let value = result.value as? [[String:Any]] {
@@ -283,7 +283,7 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate, CLLocationM
         
     }
     func getDailyWeatherInfo(Id: String) {
-        let apiUrl = "https://api.accuweather.com/forecasts/v1/daily/15day/\(Id).json?apikey=srRLeAmTroxPinDG8Aus3Ikl6tLGJd94&language=en-us&details=true&metric=true"
+        let apiUrl = "XYZ"
         AF.request(apiUrl).responseJSON { [self] result in
             if let value = result.value as? [String:Any] {
                 self.dailyData = value["DailyForecasts"] as! [[String : Any]]
@@ -588,7 +588,7 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate, CLLocationM
         
         rainBarView.isHidden = false
         cloudBarView.isHidden = true
-        let apiUrl = "https://pw.foreca.com/fw/v4/map?l=\(lId)&w=320&h=329&z=5&v=4.9.8.1153"
+        let apiUrl = "XYZ"
         
         //        AF.request(apiUrl).responseData { [self] result in
         //
@@ -607,7 +607,7 @@ class ViewController: UIViewController, UIGestureRecognizerDelegate, CLLocationM
         
         overlappingMapImg.image = UIImage()
         
-        let apiUrl = "https://pw.foreca.com/fw/v4/map?l=\(Id)&w=320&h=329&z=5&p=\(type)&t=\(UTCtime)&basetime=\(baseTime)&v=4.9.8.1153"
+        let apiUrl = "XYZ"
         
         AF.request(apiUrl).responseData { [self] result in
             if let value = result.value {
