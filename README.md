@@ -1,13 +1,9 @@
 # Amazing-Weather-App
-
-NewsApp is an iOS mobile application designed to bring up-to-date news to the user based on their personalised choice in language, country(s) and categories.
-<br/> - Complete: User selection in various categories integrated with API response
-<br> - Pending: WebView of extended article, Bookmarking favourite/certain articles for future reference
+Used an existing weather app for iPhone as prototype to develop similar UI/features for learning purposes.
 
 # 🚩 Table of contents
 1. [App Screenshots](#part1)
 2. [Features and Libraries used](#part2)
-3. [What I have Learnt](#part3)
 
 ## App Screenshots <a name="part1"></a>
 
@@ -18,9 +14,8 @@ NewsApp is an iOS mobile application designed to bring up-to-date news to the us
 
 ## Features and Libraries used <a name="part2"></a>
 
-* Used [mediastack API](https://mediastack.com) (Free, Simple REST API for Live News & Blog Articles).
-* It offers extensive options in various categories. For NewsApp I have provided 13 Languages (single select), 52 countries (select upto three) and 6 categories with "general" set as the default (multiselect).
-* Searchbar option provided for finding language/country of choice
+* Used 10 realtime weather APIs to provide extensive weather information.
+* Searchbar option provided for finding location of choice
 * [StepSlider](https://github.com/spromicky/StepSlider) to create slider for different times
 * [Alamofire](https://github.com/Alamofire/Alamofire) for API response
 * [SDWebImage](https://github.com/SDWebImage/SDWebImage) for displaying article images from url
@@ -29,11 +24,3 @@ NewsApp is an iOS mobile application designed to bring up-to-date news to the us
 * MapKit - To display map 
 * CoreLocation - Device's location
 
-___
-
-## What I have Learnt <a name="part3"></a>
-
-* (array_name).filter [$0]
-* Data in JSON (Dictionaries and arrays)
-* Search bar delegates
-* override func prepare(for segue: ...) to pass data between screens
