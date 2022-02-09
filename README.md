@@ -21,9 +21,12 @@ NewsApp is an iOS mobile application designed to bring up-to-date news to the us
 * Used [mediastack API](https://mediastack.com) (Free, Simple REST API for Live News & Blog Articles).
 * It offers extensive options in various categories. For NewsApp I have provided 13 Languages (single select), 52 countries (select upto three) and 6 categories with "general" set as the default (multiselect).
 * Searchbar option provided for finding language/country of choice
-* [Flagkit](https://github.com/madebybowtie/FlagKit) used for displaying round flag images
+* [StepSlider](https://github.com/spromicky/StepSlider) to create slider for different times
 * [Alamofire](https://github.com/Alamofire/Alamofire) for API response
 * [SDWebImage](https://github.com/SDWebImage/SDWebImage) for displaying article images from url
+* [MSCircularSlider](https://github.com/ThunderStruct/MSCircularSlider) to create semi-circular slider to show day progression
+* MapKit - To display map 
+* CoreLocation - Device's location
 
 ___
 
