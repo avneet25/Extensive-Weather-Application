@@ -107,7 +107,7 @@ class SearchViewController: UIViewController, UITableViewDelegate, UITableViewDa
     
     func getData(textInput: String)
     {
-        let apiUrl = "https://api.accuweather.com/locations/v1/cities/autocomplete.json?apikey=srRLeAmTroxPinDG8Aus3Ikl6tLGJd94&language=en-us&q=\(textInput)"
+        let apiUrl = "XXX"
         
         AF.request(apiUrl).responseJSON { result in
             if let value = result.value as? [[String : Any]] {
