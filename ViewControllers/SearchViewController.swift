@@ -107,7 +107,7 @@ class SearchViewController: UIViewController, UITableViewDelegate, UITableViewDa
     
     func getData(textInput: String)
     {
-        let apiUrl = "XXX"
+        let apiUrl = "XYZ"
         
         AF.request(apiUrl).responseJSON { result in
             if let value = result.value as? [[String : Any]] {
