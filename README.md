@@ -25,6 +25,7 @@ NewsApp is an iOS mobile application designed to bring up-to-date news to the us
 * [Alamofire](https://github.com/Alamofire/Alamofire) for API response
 * [SDWebImage](https://github.com/SDWebImage/SDWebImage) for displaying article images from url
 * [MSCircularSlider](https://github.com/ThunderStruct/MSCircularSlider) to create semi-circular slider to show day progression
+* [ScrollableGraphView](https://github.com/philackm/ScrollableGraphView) for plotting values onto a graph
 * MapKit - To display map 
 * CoreLocation - Device's location
 
