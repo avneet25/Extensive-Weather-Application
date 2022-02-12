@@ -1,5 +1,5 @@
 # Amazing-Weather-App
-Real-time and accurate weather app with attractive UI.
+Real-time and accurate weather app with multifarious features and an attractive UI.
 
 # 🚩 Table of contents
 1. [App Screenshots](#part1)
