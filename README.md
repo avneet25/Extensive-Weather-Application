@@ -1,5 +1,4 @@
 # Amazing-Weather-App
-Used an existing weather app for iPhone as prototype to develop similar UI/features for learning purposes.
 
 # 🚩 Table of contents
 1. [App Screenshots](#part1)
