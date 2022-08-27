@@ -14,6 +14,6 @@ Real-time and accurate weather app with multifarious features and an attractive 
 
 ## Features <a name="part2"></a>
 
-* Used various realtime weather APIs to provide extensive weather information.
-* Exhaustive information such as daily and hourly temperature variations, wind, rain and cloud cover, time of sunset and sunrise, precipitation, humidity, UV index, atmospheric pressure etc.
+* Multiple API integration to provide extensive and real-time weather information.
+* Exhaustive info such as daily and hourly temperature variations, wind, rain and cloud cover, time of sunset and sunrise, precipitation, humidity, UV index, atmospheric pressure etc.
 * Attractive UI to display data using maps, graphs, progressive UI components etc.  
